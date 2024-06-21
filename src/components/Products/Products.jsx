@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Products.css";
 const Products = () => {
   useEffect(() => {
-    fetch("/product.json")
+    fetch("/react-eproject/product.json")
       .then((response) => response.json())
       .then((data) => {
         function createItemElement(item) {
