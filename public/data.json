@@ -44,6 +44,13 @@
     },
     {
       "type": "related-courses",
+      "image": "../src/assets/related-courses-6.jpg",
+      "alt": "Microbiology",
+      "title": "Microbiology",
+      "content": "Microbiology is the study of microorganisms, such as bacteria, viruses, and fungi. Dental students take microbiology courses to learn about the different types of microorganisms that can cause dental diseases and how to prevent and treat these diseases."
+    },
+    {
+      "type": "related-courses",
       "image": "../src/assets/related-courses-3.jpg",
       "alt": "Physics",
       "title": "Physics",
@@ -63,13 +70,7 @@
       "title": "Physiology",
       "content": "Physiology is the study of the function of the human body. Dental students take physiology courses to learn about the physiology of the head and neck, including the function of the teeth, jaws, and surrounding structures. This knowledge is essential for understanding the normal function of the oral cavity and for diagnosing and treating dental diseases."
     },
-    {
-      "type": "related-courses",
-      "image": "../src/assets/related-courses-6.jpg",
-      "alt": "Microbiology",
-      "title": "Microbiology",
-      "content": "Microbiology is the study of microorganisms, such as bacteria, viruses, and fungi. Dental students take microbiology courses to learn about the different types of microorganisms that can cause dental diseases and how to prevent and treat these diseases."
-    },
+
     {
       "type": "help-document",
       "image": "../src/assets/help-document-2.jpg",
@@ -99,20 +100,6 @@
       "content": "This document provides guidance on how to ensure the safety of patients in the dental office. It includes information on topics such as medical emergencies, fire safety, and radiation safety."
     },
     {
-      "type": "help-document",
-      "image": "../src/assets/help-document-6.jpg",
-      "alt": "Dental Terminology",
-      "title": "Dental Terminology",
-      "content": "This document provides a comprehensive list of dental terms and their definitions. It is a valuable resource for students who are new to the field of dentistry."
-    },
-    {
-      "type": "faculty-resources",
-      "image": "../src/assets/faculty-resources-2.jpg",
-      "alt": "Dental School Grading Policies",
-      "title": "Dental School Grading Policies",
-      "content": "This document outlines the grading policies for dental school. It includes information on the grading scale, the weighting of different assignments, and the procedures for grade appeals."
-    },
-    {
       "type": "faculty-resources",
       "image": "../src/assets/faculty-resources-3.jpg",
       "alt": "Dental School Research Opportunities",
@@ -132,20 +119,6 @@
       "alt": "Dental School Student Services",
       "title": "Dental School Student Services",
       "content": "This document provides information on the student services available to dental students. It includes information on the counseling services, the health services, and the career services available to students."
-    },
-    {
-      "type": "faculty-resources",
-      "image": "../src/assets/faculty-resources-6.jpg",
-      "alt": "Dental School Faculty Development",
-      "title": "Dental School Faculty Development",
-      "content": "This document provides information on the faculty development opportunities available to dental school faculty. It includes information on the teaching workshops, the research grants, and the mentorship programs available to faculty."
-    },
-    {
-      "type": "student-resources",
-      "image": "../src/assets/student-resources-2.jpg",
-      "alt": "Dental School Course Descriptions",
-      "title": "Dental School Course Descriptions",
-      "content": "This document provides detailed descriptions of the courses offered by the dental school. It includes information on the course objectives, the course content, and the grading criteria."
     },
     {
       "type": "student-resources",
@@ -177,7 +150,7 @@
     },
     {
       "type": "case-studies",
-      "image": "../src/assets/case-studies-2.jpg",
+      "image": "../src/assets/case-studies-2.webp",
       "alt": "pic of a woman smiling",
       "title": "Periodontics",
       "content": "Overview: Periodontics is the branch of dentistry that deals with the prevention, diagnosis, and treatment of diseases of the supporting structures of the teeth, including the gums, periodontal ligament, and alveolar bone."
@@ -191,7 +164,14 @@
     },
     {
       "type": "case-studies",
-      "image": "../src/assets/case-studies-4.jpg",
+      "image": "../src/assets/case-studies-6.jpg",
+      "alt": "pic of a orthodontist adjusting braces",
+      "title": "Orthodontics",
+      "content": "Overview: Orthodontics is the branch of dentistry that deals with the diagnosis, prevention, and treatment of malocclusions, or misalignments of the teeth and jaws."
+    },
+    {
+      "type": "case-studies",
+      "image": "../src/assets/case-studies-4.webp",
       "alt": "pic of a dentist filling a cavity",
       "title": "Restorative Dentistry",
       "content": "Overview: Restorative dentistry is the branch of dentistry that deals with the restoration of teeth that have been damaged or lost due to decay, trauma, or other factors."
