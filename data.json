@@ -2,7 +2,7 @@
   "items": [
     {
       "type": "related-courses",
-      "image": "/react-eproject/src/assets/related-courses-1.jpg",
+      "image": "@assets/related-courses-1.jpg",
       "alt": "Biology",
       "title": "Biology",
       "content": "Biology is the study of life and living organisms. Dental students take biology courses to learn about the basic principles of biology, including cell biology, genetics, and evolution."
