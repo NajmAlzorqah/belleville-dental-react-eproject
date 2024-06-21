@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import VisitorCount from "../VisitorCount/VisitorCount";
-import logo from "../../assets/light-logo-icon.png";
+import logo from "/assets/light-logo-icon.png";
 import "./Navbar.css";
 
 const Navbar = () => {

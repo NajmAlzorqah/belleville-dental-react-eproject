@@ -2,10 +2,10 @@ import React from "react";
 import useScrollAnimation from "../../Hooks/useScrollAnimation";
 import "./PatientEducation.css"; // Import local CSS for component styling
 import "../../Hooks/scrollAnimation.css"; // Import global scroll animation CSS
-import toothBrushImage from "../../assets/tooth-brush.svg";
-import teethImage from "../../assets/teeth.svg";
-import starImage from "../../assets/star.svg";
-import faceIconImage from "../../assets/face-icon.svg";
+import toothBrushImage from "/assets/tooth-brush.svg";
+import teethImage from "/assets/teeth.svg";
+import starImage from "/assets/star.svg";
+import faceIconImage from "/assets/face-icon.svg";
 
 const PatientEducation = () => {
   useScrollAnimation(".delay", "show"); // Apply scroll animation to elements with .delay class

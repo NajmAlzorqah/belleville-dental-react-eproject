@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Footer.css";
-import logo from "../../assets/light-logo-icon.png";
+import logo from "/assets/light-logo-icon.png";
 
 const FooterSection = () => {
   const [tickerContent, setTickerContent] = useState("");

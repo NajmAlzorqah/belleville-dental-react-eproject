@@ -3,9 +3,9 @@ import feather from "feather-icons";
 import "./Research.css";
 
 // Import images
-import img1 from "../../assets/img-1.jpg";
-import img2 from "../../assets/img-2.jpg";
-import img3 from "../../assets/img-3.jpg";
+import img1 from "/assets/img-1.jpg";
+import img2 from "/assets/img-2.jpg";
+import img3 from "/assets/img-3.jpg";
 
 const Research = () => {
   const [ResearchEntries, setResearchEntries] = useState([]);

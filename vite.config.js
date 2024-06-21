@@ -5,9 +5,6 @@ import path from "path";
 export default defineConfig({
   base: "/react-eproject/",
   plugins: [react()],
-  define: {
-    "process.env": {},
-  },
   resolve: {
     alias: {
       // Map your assets folder for easier imports
@@ -16,7 +13,7 @@ export default defineConfig({
   },
   build: {
     outDir: "dist",
-    assetsDir: "", // Ensure assets are correctly referenced relative to root
+    assetsDir: "./", // Ensure assets are correctly referenced relative to root
     sourcemap: false,
   },
 });

@@ -1,6 +1,6 @@
 // VisitorCount.jsx
 import React, { useEffect, useState } from "react";
-import eye from "../../assets/eye-icon-white.svg";
+import eye from "/assets/eye-icon-white.svg";
 
 const VisitorCount = () => {
   const [visitorCount, setVisitorCount] = useState(0);

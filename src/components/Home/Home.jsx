@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AppointmentModal from "../AppointmentModal/AppointmentModal"; // Import your AppointmentModal component
 import "./Home.css"; // Import your CSS file for styling
-import pic from "../../assets/female-orthodontist-with-latex-gloves-handling-dental-equipment2.jpg"
+import pic from "/assets/female-orthodontist-with-latex-gloves-handling-dental-equipment2.jpg"
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 

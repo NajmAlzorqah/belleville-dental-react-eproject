@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import company1 from "../../assets/company-1.png";
-import company2 from "../../assets/company-2.png";
-import company3 from "../../assets/company-3.png";
-import company4 from "../../assets/company-4.png";
-import company5 from "../../assets/company-5.png";
-import company6 from "../../assets/company-6.png";
-import company7 from "../../assets/company-7.png";
-import company8 from "../../assets/company-8.png";
+import company1 from "/assets/company-1.png";
+import company2 from "/assets/company-2.png";
+import company3 from "/assets/company-3.png";
+import company4 from "/assets/company-4.png";
+import company5 from "/assets/company-5.png";
+import company6 from "/assets/company-6.png";
+import company7 from "/assets/company-7.png";
+import company8 from "/assets/company-8.png";
 import "./Companies.css"; // Import your CSS file for styling
 
 const Companies = () => {

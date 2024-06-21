@@ -1,7 +1,7 @@
 import React from "react";
-import aboutImage1 from "../../assets/AboutUs-1.jpg";
-import aboutImage2 from "../../assets/AboutUs-2.jpg";
-import usImage from "../../assets/AboutUs-3.jpg";
+import aboutImage1 from "/assets/AboutUs-1.jpg";
+import aboutImage2 from "/assets/AboutUs-2.jpg";
+import usImage from "/assets/AboutUs-3.jpg";
 import "./AboutUs.css"; 
 
 const AboutUs = () => {
