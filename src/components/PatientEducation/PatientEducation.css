@@ -1,0 +1,57 @@
+#patient-education {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.747);
+  margin-inline: 10%;
+  margin-block: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.patient-education-intro {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  text-align: center;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text p {
+  width: 70%;
+}
+
+.patient-education-intro>p {
+  width: 70%;
+}
+
+.secondary-intro {
+  margin-top: 50px;
+}
+
+.sub-intro {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(n, minmax(auto, 1fr));
+  justify-items: center;
+}
+
+.intro-container {
+  padding: 5%;
+  width: 90%;
+  cursor: pointer;
+}
+
+.intro-container>img {
+  width: 60px;
+  padding: 5px;
+}

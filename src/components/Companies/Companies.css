@@ -1,0 +1,83 @@
+/* ========================= COMPANIES ========================== */
+.companies {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.companies p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateY(-50%);
+}
+/* INFINTE SCROLL */
+.scroller {
+  width: 1400px;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    black,
+    black,
+    black 50%,
+    black,
+    black,
+    transparent
+  );
+  mask: linear-gradient(
+    90deg,
+    transparent,
+    black,
+    black,
+    black 50%,
+    black,
+    black,
+    transparent
+  );
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+  flex-wrap: nowrap;
+  animation: scroll 60s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(-100%);
+  }
+}
+
+.scroller__inner {
+  padding-block: 1rem;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.tag-list {
+  margin: 0;
+  padding-inline: 0;
+  list-style: none;
+}
+
+.tag-list li {
+  display: flex;
+  border-radius: 0.5rem;
+}
+
+.tag-list li img {
+  width: 200px;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* NO MEDIA QUERY */

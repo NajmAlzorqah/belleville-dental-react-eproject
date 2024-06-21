@@ -1,0 +1,59 @@
+
+
+#blog {
+  margin-bottom: 95px;
+}
+
+.title {
+  margin-top: 60px;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.395);
+  font-size: 40px;
+}
+
+.title span {
+  color: #00ccff;
+  text-shadow: 2px 2px 9px #00ccff;
+}
+
+.row.flex-nowrap {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+.row.flex-nowrap::-webkit-scrollbar {
+  display: none;
+}
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 300px;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-btn {
+  left: -20px;
+}
+
+.right-btn {
+  right: -20px;
+}
+
+/* ===============================The End Of Research Section=================================================  */

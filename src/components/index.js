@@ -1,0 +1,12 @@
+export { default as Loader } from "./Loader/Loader";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Home } from "./Home/Home";
+export { default as AboutUs } from "./AboutUs/AboutUs";
+export { default as Companies } from "./Companies/Companies";
+export { default as PatientEducation } from "./PatientEducation/PatientEducation";
+export { default as ProfessionalEducation } from "./ProfessionalEducation/ProfessionalEducation";
+export { default as Products } from "./Products/Products";
+export { default as Gallery } from "./Gallery/Gallery";
+export { default as Research } from "./Research/Research"; 
+export { default as ContactUs } from "./ContactUs/ContactUs";
+export { default as Footer } from "./Footer/Footer";

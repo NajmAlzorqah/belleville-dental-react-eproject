@@ -1,0 +1,74 @@
+
+
+
+:root {
+  --black: #303030;
+  --white: #f1f1f1;
+  --gray: #aaaaaa;
+  --primary: #1e0342;
+  --secondry: #0e46a3;
+  --hover: #9ac8cd;
+  --light: #e1f7f5;
+
+  --primary: #001869;
+  --light-blue: #00ccff;
+  --dark-green: #2e6d56;
+  --light-green: #c1dcd3;
+  --name-of-section: clamp(2rem, 3.5vw, 4rem);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: heboo;
+  src: url(../fonts/Heebo-VariableFont_wght.ttf);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Quicksand;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+a {
+  text-decoration: none ;
+  color: #000;
+}
+
+button  {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+
+
+img {
+  object-fit: cover;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+}
+
+
+

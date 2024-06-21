@@ -1,0 +1,367 @@
+/* ================================ NAVIGATION BAR ================================ */
+/* ------------- OVERALL NAVIGATION BAR ------------- */
+.navigation-bar {
+  position: fixed;
+  z-index: 9999;
+  position: fixed !important;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  padding-inline: 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 70px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.104);
+}
+
+/* ------------- HUMBERGER ICON ANIMATION ------------- */
+.ham {
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  left: 5%;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transform: scale(0.8);
+}
+
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+
+.line {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: #000;
+  stroke-width: 5.5;
+  stroke-linecap: round;
+}
+
+.ham8 .top {
+  stroke-dasharray: 40 160;
+}
+
+.ham8 .middle {
+  stroke-dasharray: 40 142;
+  transform-origin: 50%;
+  transition: transform 400ms;
+}
+
+.ham8 .bottom {
+  stroke-dasharray: 40 85;
+  transform-origin: 50%;
+  transition: transform 400ms, stroke-dashoffset 400ms;
+}
+
+.ham8.active .top {
+  stroke-dashoffset: -64px;
+}
+
+.ham8.active .middle {
+  transform: rotate(90deg);
+}
+
+.ham8.active .bottom {
+  stroke-dashoffset: -64px;
+}
+/* ------------- HUMBERGER ICON POSITIONING ------------- */
+.burger-menu {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ------------- NAVIGATION LINKS ------------- */
+.navigation-bar > .links {
+  width: 60%;
+  align-items: center;
+}
+.navigation-bar > .links a:focus {
+  color: black;
+  font-weight: bold !important;
+}
+
+.navigation-bar > .links > ul {
+  text-align: center;
+  top: 0px;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 5.5%;
+  width: 100%;
+  padding-left: 0px;
+  font-size: 1.1rem;
+  transition: all 0.5s ease;
+  margin-bottom: 0px;
+}
+
+.navigation-bar > .links > ul > li > a {
+  transition: all 0.5s ease;
+  font-weight: 500;
+  filter: drop-shadow(0px 0px 1px transparent);
+}
+
+.navigation-bar > .links > ul > li > a:hover {
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.479));
+  color: #001869;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navigation-bar > .links > ul > li {
+  transition: all 0.5s ease;
+}
+
+.education {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education > a {
+  margin: 0px;
+  font-weight: 500;
+  filter: drop-shadow(0px 0px 1px transparent);
+  transition: all 0.5s ease;
+}
+
+.education > a:hover {
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.479));
+}
+
+.education:hover .drop-down-menu {
+  top: 26px;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(255, 255, 255, 0.788)
+  );
+  backdrop-filter: blur(1rem);
+  opacity: 1;
+  border-radius: 0px 0px 5px 5px;
+  pointer-events: visible;
+}
+
+.education > .drop-down-menu {
+  transition: all 0.5s;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 210px;
+  height: 130px;
+  font-weight: 200;
+  color: black;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 0px 10px 0px;
+}
+
+.education > .drop-down-menu > a {
+  margin: 10px 5px;
+  font-weight: 400;
+  transition: all 0.5s ease;
+  color: black;
+}
+
+.drop-down-menu > a:hover {
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.479));
+}
+
+/* ------------- THE CONTAINER OF logo & visitor count ------------- */
+.left-container {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  gap: 15%;
+  height: 30px;
+  justify-content: center;
+}
+
+/* ------------- LOGO ------------- */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo > a > p {
+  margin-bottom: 0px;
+  font-size: 1.7rem;
+  font-family: heboo, "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+
+.logo > a > p > span {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #001869;
+}
+
+.logo > a > img {
+  height: 50px;
+}
+
+/* ------------- VISITORS COUNT ------------- */
+.visitors-count {
+  display: flex;
+  height: 100%;
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  padding-inline: 4%;
+  align-items: center;
+  background-image: linear-gradient(120deg, var(--hover), var(--secondry));
+  border-radius: 50px;
+}
+
+.visitors-count > img {
+  height: 70%;
+}
+
+.visitors-count > p {
+  color: white;
+  margin: 0px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+/* ------------- NAVIGATION MEDIA QUERIES --------------- */
+/* ----- BIG to MEDIUM SCREENS -------- */
+@media (max-width: 1350px) {
+  .navigation-bar > .links > ul > li > a,
+  .education {
+    font-size: 0.9rem !important;
+  }
+}
+@media (max-width: 1250px) {
+  .navigation-bar {
+    padding-inline: 6% !important;
+    gap: 10%;
+  }
+
+  .education > .drop-down-menu {
+    display: none;
+  }
+
+  .left-container {
+    transform: scale(0.8);
+    transition: all 0.5s ease;
+    margin-right: 20px;
+  }
+}
+
+/* ------------- MEDIUM to SMALL SCREENS -------------- */
+@media (max-width: 980px) {
+  /* OVERALL MEDIA */
+  .navigation-bar {
+    padding: 0px !important;
+  }
+  /* HUMBERGER */
+  .ham {
+    display: block;
+    position: fixed;
+    z-index: 999999;
+  }
+  /* NAVIGATION LINKLS */
+  .navigation-bar > .links {
+    inset: 0 40% 0 0;
+    width: unset !important;
+  }
+  .navigation-bar > .links > ul {
+    position: fixed;
+    align-items: flex-start !important;
+    z-index: 99999;
+    top: 0px;
+    justify-content: flex-start !important;
+    height: 200vh;
+    width: 100% !important;
+    padding-left: 30px !important;
+    flex-direction: column;
+    text-align: unset !important;
+    padding: min(20vh) 2rem;
+    gap: 1.75rem !important;
+    background: hsla(0, 0%, 23%, 0.077) !important;
+    backdrop-filter: blur(1rem);
+    transform: translateX(-100%);
+  }
+  .education > a {
+    font-size: 1.25rem;
+  }
+  .primary-navigation[data-visible="true"] {
+    transform: translateX(0%) !important;
+  }
+  .navigation-bar > .links > ul > li > a {
+    font-size: 1.25rem !important;
+  }
+  .education:hover .drop-down-menu {
+    backdrop-filter: unset !important;
+    opacity: 1 !important;
+    pointer-events: visible;
+    left: 84px !important;
+  }
+  .education > .drop-down-menu {
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      rgba(255, 255, 255, 0.475)
+    ) !important;
+    font-size: 1rem;
+    padding-left: 30px !important;
+    padding-top: 0px !important;
+    transition: all 0.5s;
+    top: -5px !important;
+    opacity: 0 !important;
+    left: 40px !important;
+    width: 240px !important;
+    height: 100px !important;
+    border-radius: 0px 5px 5px 0px !important;
+  }
+  /* left container (logo + visitor count) */
+  .logo {
+    margin-right: 60px;
+  }
+  .visitors-count {
+    display: none !important;
+  }
+}
+/* -------- SMALL SCREENS and LESS -------- */
+@media (max-width: 600px) {
+  .left-container {
+    align-items: center !important;
+    justify-content: flex-end !important;
+  }
+  .logo > a > p {
+    display: none !important;
+    justify-content: center !important;
+  }
+  .logo > a {
+    position: absolute !important;
+    right: 3% !important;
+  }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */

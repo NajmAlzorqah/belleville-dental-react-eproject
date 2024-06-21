@@ -1,0 +1,176 @@
+/* ================================ ABOUT US  ================================ */
+.about-us {
+  width: 80%;
+  position: relative;
+  display: flex;
+  margin-inline: 10%;
+}
+
+.text-elements {
+  width: calc(50%);
+  height: 100%;
+  padding: 5%;
+  padding-block: 10%;
+}
+
+.about-us-header p {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.us {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.us img {
+  position: absolute;
+  height: 50px;
+  width: 115px;
+  object-fit: cover;
+  object-position: 0px -33px;
+  border-radius: 50px;
+  left: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about-text {
+  margin: 0px;
+  letter-spacing: 10px;
+  margin-bottom: -15px;
+}
+
+.about-us-content-container p {
+  font-size: 1.2rem;
+}
+
+.about-us-content-container p i {
+  font-weight: 700;
+}
+
+.pics {
+  position: relative;
+  width: 50%;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.pic-one {
+  margin-top: 15%;
+  margin-left: 40px;
+  height: 50%;
+  width: 50%;
+}
+
+.pic-two {
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  right: 10%;
+  top: 40%;
+}
+
+.pic-one img,
+.pic-two img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 70px rgba(0, 0, 0, 0.16);
+  object-fit: cover;
+}
+
+.about-us-content-container button {
+  background-color: transparent;
+  border: none;
+}
+
+/* BUTTON STYLES */
+.btn {
+  position: relative;
+  height: 50px;
+  width: 200px;
+  text-align: left !important;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  font-weight: 500 !important;
+  color: var(--secondry) !important;
+  text-transform: uppercase;
+  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:before,
+.btn:after {
+  content: "";
+  position: absolute;
+  transition: inherit;
+  z-index: -1;
+}
+
+.btn:hover {
+  color: white !important;
+  transition-delay: 0.5s !important;
+}
+
+.btn:hover:before {
+  transition-delay: 0s;
+}
+
+.btn:hover:after {
+  background: var(--hover);
+  transition-delay: 0.35s;
+}
+
+.btn-hover:before,
+.btn-hover:after {
+  top: 0;
+  width: 0;
+  height: 100%;
+}
+
+.btn-hover:before {
+  right: 0;
+  border: 1px solid var(--primary);
+  border-left: 0;
+  border-right: 0;
+}
+
+.btn-hover:after {
+  left: 0;
+}
+
+.btn-hover:hover:before,
+.btn-hover:hover:after {
+  width: 100%;
+}
+
+.about-us-content-container div {
+  margin-bottom: 3rem;
+}
+
+.about-us-content-container div:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------------- ABOUT US MEDIA QUERIES --------------- */
+/* ----- MEDIUM to SMALL SCREENS ------ */
+@media (max-width: 980px) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+  }
+  .pics {
+    width: unset !important;
+    height: unset !important;
+    margin-top: 50px !important;
+  }
+  .about-us > .text-elements {
+    width: unset !important;
+    height: 100% !important;
+    padding-top: 0px !important ;
+  }
+}

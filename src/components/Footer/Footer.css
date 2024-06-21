@@ -1,0 +1,95 @@
+
+.footer {
+  background: rgba(248, 249, 250, 1);
+  padding: 70px 0 40px;
+  object-fit: contain;
+}
+
+.footer .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .logo>a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--primary);
+}
+
+.footer .logo p:first-child {
+  color: var(--black);
+  margin-top: 10px;
+  font-size: 2rem;
+  font-family: heboo, "Times New Roman", Times, serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.footer .logo>p>span {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--primary);
+}
+
+.footer .footer-social-icon-content .footer-social-icon {
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+.footer .footer-social-icon-content .footer-social-icon:hover {
+  color: var(--primary);
+}
+
+.footer .footer-sub-menu li {
+  padding: 6px 0;
+}
+
+.footer .footer-sub-menu li .footer-link {
+  color: var(--secondry);
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.footer .footer-sub-menu li .footer-link:hover {
+  color: var(--primary);
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.footer-alt {
+  background: var(--bs-footer-alt-bg, #23222f);
+  padding: 10px 0;
+}
+
+.ticker {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  position: relative;
+  color: #fff;
+}
+
+#ticker {
+  display: flex;
+  animation: scrollTicker 20s linear infinite;
+}
+
+#ticker-content {
+  display: inline-block;
+  padding-left: 100%;
+}
+
+@keyframes scrollTicker {
+  0% {
+    transform: translateX(100%);
+  }
+  
+  100% {
+    transform: translateX(-100%);
+  }
+}

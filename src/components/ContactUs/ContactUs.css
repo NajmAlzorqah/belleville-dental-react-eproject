@@ -1,0 +1,96 @@
+#contact .container .row .col-lg-6 .text-center h3 {
+  text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.395);
+  font-size: 40px;
+}
+
+
+
+#contact .container .row .col-lg-6 .text-center h3 span {
+  color: #00ccff;
+  text-shadow: 2px 2px 9px #00ccff;
+}
+
+.contact {
+  margin: -50px auto 95px;
+}
+
+#submit {
+  width: 185px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: var(--primary);
+  border: 1px solid #5a4fdc !important;
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(90, 79, 220, 0.15);
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 413px) {
+  #submit {
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+#submit:hover {
+  background-color: rgb(67, 62, 62);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.423);
+  background-color: #0a1536 !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  background-color: #fbfafd;
+  border-color: #ced4da;
+}
+
+textarea.form-control {
+  height: auto !important;
+}
+
+.custom-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.custom-form label {
+  margin-bottom: 10px;
+}
+
+.custom-form .alert-warning {
+  padding: 10px;
+}
+
+.form-control {
+  padding: 8px 10px;
+  font-size: 14px;
+  height: 40px;
+  background-color: rgba(59, 57, 80, 0.01);
+  border: 1px solid rgba(158, 156, 185, 0.3);
+}
+
+.form-control::-moz-placeholder {
+  color: #b0aec6;
+  font-size: 14px;
+}
+
+.form-control::placeholder {
+  color: #b0aec6;
+  font-size: 14px;
+}
+
+.contact-loader {
+  display: none;
+}
+
+#success_page {
+  background-color: rgba(20, 207, 159, 0.25);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+[data-bs-theme="dark"] .form-control:focus {
+  background-color: var(--bs-secondary-bg);
+  border: 1px solid rgba(158, 156, 185, 0.3);
+}
