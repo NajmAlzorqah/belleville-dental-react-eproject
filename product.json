@@ -2,7 +2,7 @@
   "items": [
     {
       "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-1.jpg",
+      "image": "../src/assets/toothpaste-1.jpg",
       "alt": "Toothpaste",
       "title": "Fresh Mint Toothpaste",
       "content": "Experience long-lasting freshness with our Fresh Mint Toothpaste. Fights cavities and leaves your mouth feeling clean.",
@@ -10,7 +10,7 @@
     },
     {
       "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-1.jpg",
+      "image": "../src/assets/toothbrush-1.jpg",
       "alt": "Toothbrush",
       "title": "Electric Toothbrush",
       "content": "Upgrade your oral hygiene routine with our Electric Toothbrush. Provides superior cleaning and plaque removal.",
@@ -18,7 +18,7 @@
     },
     {
       "type": "kids",
-      "image": "../src/assets/Products/kids-1.jpg",
+      "image": "../src/assets/kids-1.jpg",
       "alt": "Kids Dental Products",
       "title": "Kids Toothpaste",
       "content": "Make brushing fun for your little ones with our Kids Toothpaste. Delicious flavors and gentle formula for young teeth.",
@@ -26,7 +26,7 @@
     },
     {
       "type": "accessories",
-      "image": "../src/assets/Products/accessories-1.jpg",
+      "image": "../src/assets/accessories-1.jpg",
       "alt": "Dental Accessories",
       "title": "Travel Toothpaste Holder",
       "content": "Keep your toothpaste safe and secure while traveling with our Travel Toothpaste Holder. Compact and leak-proof design for on-the-go use.",
@@ -34,7 +34,7 @@
     },
     {
       "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-2.jpg",
+      "image": "../src/assets/toothpaste-2.jpg",
       "alt": "Toothpaste",
       "title": "Whitening Toothpaste",
       "content": "Achieve a brighter smile with our Whitening Toothpaste. Removes stains and protects against future discoloration.",
@@ -42,7 +42,7 @@
     },
     {
       "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-3.jpg",
+      "image": "../src/assets/toothpaste-3.jpg",
       "alt": "Toothpaste",
       "title": "Sensitive Teeth Toothpaste",
       "content": "Relieve tooth sensitivity with our Sensitive Teeth Toothpaste. Gentle formula provides effective relief without harshness.",
@@ -50,7 +50,7 @@
     },
     {
       "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-4.jpg",
+      "image": "../src/assets/toothpaste-4.jpg",
       "alt": "Toothpaste",
       "title": "Charcoal Toothpaste",
       "content": "Detoxify your mouth with our Charcoal Toothpaste. Removes impurities and leaves your breath feeling fresh.",
@@ -58,7 +58,7 @@
     },
     {
       "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-5.jpg",
+      "image": "../src/assets/toothpaste-5.webp",
       "alt": "Toothpaste",
       "title": "Herbal Toothpaste",
       "content": "Embrace the power of nature with our Herbal Toothpaste. Natural ingredients promote healthy teeth and gums.",
@@ -66,48 +66,16 @@
     },
     {
       "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-6.jpg",
+      "image": "../src/assets/toothpaste-6.webp",
       "alt": "Toothpaste",
       "title": "Fluoride-Free Toothpaste",
       "content": "Enjoy fluoride-free protection with our Fluoride-Free Toothpaste. Safe for the whole family.",
       "rating": 4.3
     },
-    {
-      "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-7.jpg",
-      "alt": "Toothpaste",
-      "title": "Gel Toothpaste",
-      "content": "Experience the refreshing sensation of our Gel Toothpaste. Smooth texture provides thorough cleaning.",
-      "rating": 4.8
-    },
-    {
-      "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-8.jpg",
-      "alt": "Toothpaste",
-      "title": "Anti-Cavity Toothpaste",
-      "content": "Protect against cavities with our Anti-Cavity Toothpaste. Strengthens enamel and fights decay.",
-      "rating": 4.5
-    },
-    {
-      "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-9.jpg",
-      "alt": "Toothpaste",
-      "title": "Baking Soda Toothpaste",
-      "content": "Harness the power of baking soda with our Baking Soda Toothpaste. Neutralizes acids and freshens breath.",
-      "rating": 4.2
-    },
-    {
-      "type": "toothpaste",
-      "image": "../src/assets/Products/toothpaste-10.jpg",
-      "alt": "Toothpaste",
-      "title": "Enamel Strengthening Toothpaste",
-      "content": "Fortify your enamel with our Enamel Strengthening Toothpaste. Protects against erosion and acid attacks.",
-      "rating": 4.7
-    },
 
     {
       "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-2.jpg",
+      "image": "../src/assets/toothbrush-2.jpg",
       "alt": "Toothbrush",
       "title": "Sonic Toothbrush",
       "content": "Experience the power of sonic technology with our Sonic Toothbrush. Removes plaque and stains for a brighter smile.",
@@ -115,7 +83,7 @@
     },
     {
       "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-3.jpg",
+      "image": "../src/assets/toothbrush-3.jpg",
       "alt": "Toothbrush",
       "title": "Soft Bristle Toothbrush",
       "content": "Gently clean your teeth and gums with our Soft Bristle Toothbrush. Perfect for those with sensitive mouths.",
@@ -123,7 +91,7 @@
     },
     {
       "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-4.jpg",
+      "image": "../src/assets/toothbrush-4.jpg",
       "alt": "Toothbrush",
       "title": "Medium Bristle Toothbrush",
       "content": "Achieve a thorough clean with our Medium Bristle Toothbrush. Removes plaque and debris for a fresh mouth.",
@@ -131,56 +99,16 @@
     },
     {
       "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-5.jpg",
+      "image": "../src/assets/toothbrush-5.jpeg",
       "alt": "Toothbrush",
       "title": "Hard Bristle Toothbrush",
       "content": "Get a deep clean with our Hard Bristle Toothbrush. Removes tough stains and debris for a healthier smile.",
       "rating": 4.0
     },
-    {
-      "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-6.jpg",
-      "alt": "Toothbrush",
-      "title": "Travel Toothbrush",
-      "content": "Stay on top of your oral care routine while traveling with our Travel Toothbrush. Compact and convenient for on-the-go use.",
-      "rating": 4.3
-    },
-    {
-      "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-7.jpg",
-      "alt": "Toothbrush",
-      "title": "Electric Travel Toothbrush",
-      "content": "Enjoy the benefits of electric brushing even when you're on the road with our Electric Travel Toothbrush. Portable and efficient.",
-      "rating": 4.7
-    },
-    {
-      "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-8.jpg",
-      "alt": "Toothbrush",
-      "title": "Disposable Toothbrush",
-      "content": "Convenience meets hygiene with our Disposable Toothbrush. Perfect for travel or single-use situations.",
-      "rating": 4.5
-    },
-    {
-      "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-9.jpg",
-      "alt": "Toothbrush",
-      "title": "Manual Toothbrush",
-      "content": "Keep your teeth clean and gums healthy with our Manual Toothbrush. Traditional design with effective cleaning power.",
-      "rating": 4.2
-    },
-    {
-      "type": "toothbrush",
-      "image": "../src/assets/Products/toothbrush-10.jpg",
-      "alt": "Toothbrush",
-      "title": "Interdental Toothbrush",
-      "content": "Clean between your teeth with ease using our Interdental Toothbrush. Removes plaque and debris from hard-to-reach areas for optimal oral health.",
-      "rating": 4.6
-    },
 
     {
       "type": "kids",
-      "image": "../src/assets/Products/kids-2.jpg",
+      "image": "../src/assets/kids-2.jpg",
       "alt": "Kids Dental Products",
       "title": "Children's Toothbrush",
       "content": "Encourage good oral hygiene habits with our Children's Toothbrush. Designed for small hands and developing smiles.",
@@ -188,7 +116,7 @@
     },
     {
       "type": "kids",
-      "image": "../src/assets/Products/kids-3.jpg",
+      "image": "../src/assets/kids-3.jpg",
       "alt": "Kids Dental Products",
       "title": "Kids Dental Floss",
       "content": "Teach your kids the importance of flossing with our Kids Dental Floss. Easy-to-use design and gentle on young gums.",
@@ -196,56 +124,16 @@
     },
     {
       "type": "kids",
-      "image": "../src/assets/Products/kids-4.jpg",
+      "image": "../src/assets/kids-4.jpg",
       "alt": "Kids Dental Products",
       "title": "Children's Mouthwash",
       "content": "Complete your child's oral care routine with our Children's Mouthwash. Mild formula with fun flavors to keep mouths fresh.",
       "rating": 4.3
     },
-    {
-      "type": "kids",
-      "image": "../src/assets/Products/kids-5.jpg",
-      "alt": "Kids Dental Products",
-      "title": "Kids Dental Kit",
-      "content": "Everything your child needs for a healthy smile in one convenient package. Our Kids Dental Kit includes toothpaste, toothbrush, and floss.",
-      "rating": 4.6
-    },
-    {
-      "type": "kids",
-      "image": "../src/assets/Products/kids-6.jpg",
-      "alt": "Kids Dental Products",
-      "title": "Children's Toothpaste Dispenser",
-      "content": "Make toothpaste time easy and mess-free with our Children's Toothpaste Dispenser. Fun designs and easy-to-use for kids of all ages.",
-      "rating": 4.4
-    },
-    {
-      "type": "kids",
-      "image": "../src/assets/Products/kids-7.jpg",
-      "alt": "Kids Dental Products",
-      "title": "Child-Friendly Toothbrush Holder",
-      "content": "Keep your child's toothbrush organized and clean with our Child-Friendly Toothbrush Holder. Adorable designs and suction cup base for easy mounting.",
-      "rating": 4.2
-    },
-    {
-      "type": "kids",
-      "image": "../src/assets/Products/kids-8.jpg",
-      "alt": "Kids Dental Products",
-      "title": "Kids Dental Timer",
-      "content": "Encourage thorough brushing habits with our Kids Dental Timer. Fun colors and countdown feature make brushing a game.",
-      "rating": 4.5
-    },
-    {
-      "type": "kids",
-      "image": "../src/assets/Products/kids-9.jpg",
-      "alt": "Kids Dental Products",
-      "title": "Children's Dental Mirror",
-      "content": "Teach your kids about oral health with our Children's Dental Mirror. Helps them see and understand the importance of brushing.",
-      "rating": 4.7
-    },
 
     {
       "type": "accessories",
-      "image": "../src/assets/Products/accessories-2.jpg",
+      "image": "../src/assets/accessories-2.jpg",
       "alt": "Dental Accessories",
       "title": "Toothbrush Case",
       "content": "Protect your toothbrush from dirt and damage with our Toothbrush Case. Fits most standard toothbrushes and perfect for travel.",
@@ -253,7 +141,7 @@
     },
     {
       "type": "accessories",
-      "image": "../src/assets/Products/accessories-3.jpg",
+      "image": "../src/assets/accessories-3.jpg",
       "alt": "Dental Accessories",
       "title": "Dental Floss Picks",
       "content": "Simplify flossing with our Dental Floss Picks. Easy-to-use design with built-in floss for convenient oral care.",
@@ -261,51 +149,11 @@
     },
     {
       "type": "accessories",
-      "image": "../src/assets/Products/accessories-4.jpg",
+      "image": "../src/assets/accessories-4.jpg",
       "alt": "Dental Accessories",
       "title": "Tongue Scraper",
       "content": "Improve oral hygiene and freshen breath with our Tongue Scraper. Removes bacteria and debris for a cleaner mouth.",
       "rating": 4.4
-    },
-    {
-      "type": "accessories",
-      "image": "../src/assets/Products/accessories-5.jpg",
-      "alt": "Dental Accessories",
-      "title": "Interdental Brushes",
-      "content": "Clean between your teeth with precision using our Interdental Brushes. Removes plaque and debris for healthier gums.",
-      "rating": 4.0
-    },
-    {
-      "type": "accessories",
-      "image": "../src/assets/Products/accessories-6.jpg",
-      "alt": "Dental Accessories",
-      "title": "Toothpaste Squeezer",
-      "content": "Maximize the use of your toothpaste with our Toothpaste Squeezer. Simple and effective tool for getting every last drop.",
-      "rating": 4.3
-    },
-    {
-      "type": "accessories",
-      "image": "../src/assets/Products/accessories-7.jpg",
-      "alt": "Dental Accessories",
-      "title": "Dental Rinse Cup",
-      "content": "Complete your oral care routine with our Dental Rinse Cup. Durable and stylish design for everyday use.",
-      "rating": 4.7
-    },
-    {
-      "type": "accessories",
-      "image": "../src/assets/Products/accessories-8.jpg",
-      "alt": "Dental Accessories",
-      "title": "Toothbrush Holder",
-      "content": "Organize your bathroom with our Toothbrush Holder. Holds multiple brushes and keeps them clean and dry.",
-      "rating": 4.5
-    },
-    {
-      "type": "accessories",
-      "image": "../src/assets/Products/accessories-9.jpg",
-      "alt": "Dental Accessories",
-      "title": "Dental Floss Dispenser",
-      "content": "Simplify flossing with our Dental Floss Dispenser. Portable and refillable for easy access to floss anytime, anywhere.",
-      "rating": 4.2
     }
   ]
 }
