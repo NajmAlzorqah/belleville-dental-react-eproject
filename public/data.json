@@ -2,210 +2,210 @@
   "items": [
     {
       "type": "related-courses",
-      "image": "../src/assets/ProfessionalEducation/related-courses-1.jpg",
+      "image": "../src/assets/related-courses-1.jpg",
       "alt": "Biology",
       "title": "Biology",
       "content": "Biology is the study of life and living organisms. Dental students take biology courses to learn about the basic principles of biology, including cell biology, genetics, and evolution."
     },
     {
       "type": "help-document",
-      "image": "../src/assets/ProfessionalEducation/help-document-1.jpg",
+      "image": "../src/assets/help-document-1.jpg",
       "alt": "ADA Code of Ethics for Dentists",
       "title": "ADA Code of Ethics for Dentists",
       "content": "This document outlines the ethical principles that dentists should follow in their practice. It includes information on patient confidentiality, informed consent, and advertising."
     },
     {
       "type": "faculty-resources",
-      "image": "../src/assets/ProfessionalEducation/faculty-resources-1.jpg",
+      "image": "../src/assets/faculty-resources-1.jpg",
       "alt": "Dental School Curriculum",
       "title": "Dental School Curriculum",
       "content": "This document provides an overview of the curriculum for dental school. It includes information on the required courses, the clinical rotations, and the research opportunities available to students."
     },
     {
       "type": "student-resources",
-      "image": "../src/assets/ProfessionalEducation/student-resources-1.jpg",
+      "image": "../src/assets/student-resources-1.jpg",
       "alt": "Dental School Student Handbook",
       "title": "Dental School Student Handbook",
       "content": "This document provides an overview of the rules and regulations for dental students. It includes information on the academic policies, the student conduct code, and the student grievance procedures."
     },
     {
       "type": "case-studies",
-      "image": "../src/assets/ProfessionalEducation/case-studies-1.jpg",
+      "image": "../src/assets/case-studies-1.jpg",
       "alt": "pic of an old man",
       "title": "Endodontics",
       "content": "Overview: Endodontics is the branch of dentistry that deals with the diagnosis and treatment of diseases of the dental pulp and the tissues surrounding the root of the tooth."
     },
     {
       "type": "related-courses",
-      "image": "../src/assets/ProfessionalEducation/related-courses-2.jpg",
+      "image": "../src/assets/related-courses-2.jpg",
       "alt": "Chemistry",
       "title": "Chemistry",
       "content": "Chemistry is the study of the composition, structure, and properties of matter. Dental students take chemistry courses to learn about the basic principles of chemistry."
     },
     {
       "type": "related-courses",
-      "image": "../src/assets/ProfessionalEducation/related-courses-3.jpg",
+      "image": "../src/assets/related-courses-3.jpg",
       "alt": "Physics",
       "title": "Physics",
       "content": "Physics is the study of matter and energy and their interactions. Dental students take physics courses to learn about the basic principles of physics."
     },
     {
       "type": "related-courses",
-      "image": "../src/assets/ProfessionalEducation/related-courses-4.jpg",
+      "image": "../src/assets/related-courses-4.jpg",
       "alt": "Anatomy",
       "title": "Anatomy",
       "content": "Anatomy is the study of the structure of the human body. Dental students take anatomy courses to learn about the anatomy of the head and neck."
     },
     {
       "type": "related-courses",
-      "image": "../src/assets/ProfessionalEducation/related-courses-5.jpg",
+      "image": "../src/assets/related-courses-5.jpg",
       "alt": "Physiology",
       "title": "Physiology",
       "content": "Physiology is the study of the function of the human body. Dental students take physiology courses to learn about the physiology of the head and neck, including the function of the teeth, jaws, and surrounding structures. This knowledge is essential for understanding the normal function of the oral cavity and for diagnosing and treating dental diseases."
     },
     {
       "type": "related-courses",
-      "image": "../src/assets/ProfessionalEducation/related-courses-6.jpg",
+      "image": "../src/assets/related-courses-6.jpg",
       "alt": "Microbiology",
       "title": "Microbiology",
       "content": "Microbiology is the study of microorganisms, such as bacteria, viruses, and fungi. Dental students take microbiology courses to learn about the different types of microorganisms that can cause dental diseases and how to prevent and treat these diseases."
     },
     {
       "type": "help-document",
-      "image": "../src/assets/ProfessionalEducation/help-document-2.jpg",
+      "image": "../src/assets/help-document-2.jpg",
       "alt": "ADA Principles of Ethics and Code of Professional Conduct",
       "title": "ADA Principles of Ethics and Code of Professional Conduct",
       "content": "This document provides more detailed guidance on ethical issues that dentists may encounter in their practice. It includes information on topics such as patient abandonment, conflicts of interest, and the use of social media."
     },
     {
       "type": "help-document",
-      "image": "../src/assets/ProfessionalEducation/help-document-3.jpg",
+      "image": "../src/assets/help-document-3.jpg",
       "alt": "Guidelines for the Use of Dental Amalgams",
       "title": "Guidelines for the Use of Dental Amalgams",
       "content": "This document provides guidance on the use of dental amalgam, a controversial material that has been used for decades to restore teeth. It includes information on the composition of amalgam, its benefits and risks, and the precautions that should be taken when using it."
     },
     {
       "type": "help-document",
-      "image": "../src/assets/ProfessionalEducation/help-document-4.jpg",
+      "image": "../src/assets/help-document-4.jpg",
       "alt": "Infection Control Guidelines for the Dental Office",
       "title": "Infection Control Guidelines for the Dental Office",
       "content": "This document provides guidance on how to prevent and control the spread of infections in the dental office. It includes recommendations on hand hygiene, surface disinfection, sterilization of instruments, and waste management."
     },
     {
       "type": "help-document",
-      "image": "../src/assets/ProfessionalEducation/help-document-5.jpg",
+      "image": "../src/assets/help-document-5.jpg",
       "alt": "Patient Safety in the Dental Office",
       "title": "Patient Safety in the Dental Office",
       "content": "This document provides guidance on how to ensure the safety of patients in the dental office. It includes information on topics such as medical emergencies, fire safety, and radiation safety."
     },
     {
       "type": "help-document",
-      "image": "../src/assets/ProfessionalEducation/help-document-6.jpg",
+      "image": "../src/assets/help-document-6.jpg",
       "alt": "Dental Terminology",
       "title": "Dental Terminology",
       "content": "This document provides a comprehensive list of dental terms and their definitions. It is a valuable resource for students who are new to the field of dentistry."
     },
     {
       "type": "faculty-resources",
-      "image": "../src/assets/ProfessionalEducation/faculty-resources-2.jpg",
+      "image": "../src/assets/faculty-resources-2.jpg",
       "alt": "Dental School Grading Policies",
       "title": "Dental School Grading Policies",
       "content": "This document outlines the grading policies for dental school. It includes information on the grading scale, the weighting of different assignments, and the procedures for grade appeals."
     },
     {
       "type": "faculty-resources",
-      "image": "../src/assets/ProfessionalEducation/faculty-resources-3.jpg",
+      "image": "../src/assets/faculty-resources-3.jpg",
       "alt": "Dental School Research Opportunities",
       "title": "Dental School Research Opportunities",
       "content": "This document provides information on the research opportunities available to dental students. It includes information on the different types of research projects, the funding available, and the mentorship opportunities available."
     },
     {
       "type": "faculty-resources",
-      "image": "../src/assets/ProfessionalEducation/faculty-resources-4.jpg",
+      "image": "../src/assets/faculty-resources-4.jpg",
       "alt": "Dental School Technology Resources",
       "title": "Dental School Technology Resources",
       "content": "This document provides information on the technology resources available to dental students. It includes information on the computer labs, the library, and the online resources available to students."
     },
     {
       "type": "faculty-resources",
-      "image": "../src/assets/ProfessionalEducation/faculty-resources-5.jpg",
+      "image": "../src/assets/faculty-resources-5.jpg",
       "alt": "Dental School Student Services",
       "title": "Dental School Student Services",
       "content": "This document provides information on the student services available to dental students. It includes information on the counseling services, the health services, and the career services available to students."
     },
     {
       "type": "faculty-resources",
-      "image": "../src/assets/ProfessionalEducation/faculty-resources-6.jpg",
+      "image": "../src/assets/faculty-resources-6.jpg",
       "alt": "Dental School Faculty Development",
       "title": "Dental School Faculty Development",
       "content": "This document provides information on the faculty development opportunities available to dental school faculty. It includes information on the teaching workshops, the research grants, and the mentorship programs available to faculty."
     },
     {
       "type": "student-resources",
-      "image": "../src/assets/ProfessionalEducation/student-resources-2.jpg",
+      "image": "../src/assets/student-resources-2.jpg",
       "alt": "Dental School Course Descriptions",
       "title": "Dental School Course Descriptions",
       "content": "This document provides detailed descriptions of the courses offered by the dental school. It includes information on the course objectives, the course content, and the grading criteria."
     },
     {
       "type": "student-resources",
-      "image": "../src/assets/ProfessionalEducation/student-resources-3.jpg",
+      "image": "../src/assets/student-resources-3.jpg",
       "alt": "Dental School Clinic Hours",
       "title": "Dental School Clinic Hours",
       "content": "This document provides information on the hours of operation for the dental school clinic. It includes information on the days and times that the clinic is open, as well as the types of services that are offered."
     },
     {
       "type": "student-resources",
-      "image": "../src/assets/ProfessionalEducation/student-resources-4.jpg",
+      "image": "../src/assets/student-resources-4.jpg",
       "alt": "Dental School Library Resources",
       "title": "Dental School Library Resources",
       "content": "This document provides information on the resources available at the dental school library. It includes information on the books, journals, and databases available, as well as the services offered by the library staff."
     },
     {
       "type": "student-resources",
-      "image": "../src/assets/ProfessionalEducation/student-resources-5.jpg",
+      "image": "../src/assets/student-resources-5.jpg",
       "alt": "Dental School Computer Labs",
       "title": "Dental School Computer Labs",
       "content": "This document provides information on the computer labs available to dental students. It includes information on the software and hardware available, as well as the hours of operation for the labs."
     },
     {
       "type": "student-resources",
-      "image": "../src/assets/ProfessionalEducation/student-resources-6.jpg",
+      "image": "../src/assets/student-resources-6.jpg",
       "alt": "Dental School Student Organizations",
       "title": "Dental School Student Organizations",
       "content": "This document provides information on the student organizations available to dental students. It includes information on the goals and activities of each organization, as well as the contact information for the officers."
     },
     {
       "type": "case-studies",
-      "image": "../src/assets/ProfessionalEducation/case-studies-2.jpg",
+      "image": "../src/assets/case-studies-2.jpg",
       "alt": "pic of a woman smiling",
       "title": "Periodontics",
       "content": "Overview: Periodontics is the branch of dentistry that deals with the prevention, diagnosis, and treatment of diseases of the supporting structures of the teeth, including the gums, periodontal ligament, and alveolar bone."
     },
     {
       "type": "case-studies",
-      "image": "../src/assets/ProfessionalEducation/case-studies-3.jpg",
+      "image": "../src/assets/case-studies-3.jpg",
       "alt": "pic of a person with dentures",
       "title": "Prosthodontics",
       "content": "Overview: Prosthodontics is the branch of dentistry that deals with the design, fabrication, and placement of artificial teeth or dental prosthetics to restore the function and aesthetics of the mouth."
     },
     {
       "type": "case-studies",
-      "image": "../src/assets/ProfessionalEducation/case-studies-4.jpg",
+      "image": "../src/assets/case-studies-4.jpg",
       "alt": "pic of a dentist filling a cavity",
       "title": "Restorative Dentistry",
       "content": "Overview: Restorative dentistry is the branch of dentistry that deals with the restoration of teeth that have been damaged or lost due to decay, trauma, or other factors."
     },
     {
       "type": "case-studies",
-      "image": "../src/assets/ProfessionalEducation/case-studies-5.jpg",
+      "image": "../src/assets/case-studies-5.jpg",
       "alt": "pic of a surgeon operating on a patient",
       "title": "Oral Surgery",
       "content": "Overview: Oral surgery is the branch of dentistry that deals with the surgical treatment of diseases, injuries, and malformations of the mouth, jaws, and face."
     },
     {
       "type": "case-studies",
-      "image": "../src/assets/ProfessionalEducation/case-studies-6.jpg",
+      "image": "../src/assets/case-studies-6.jpg",
       "alt": "pic of a orthodontist adjusting braces",
       "title": "Orthodontics",
       "content": "Overview: Orthodontics is the branch of dentistry that deals with the diagnosis, prevention, and treatment of malocclusions, or misalignments of the teeth and jaws."

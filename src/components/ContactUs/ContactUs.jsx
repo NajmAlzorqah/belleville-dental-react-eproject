@@ -147,10 +147,6 @@ const ContactUs = () => {
                       className="btn btn-primary"
                     >
                       Send Message{" "}
-                      <i
-                        className="icon-size-15 ms-2 icon"
-                        data-feather="send"
-                      ></i>
                     </button>
                   </div>
                 </div>

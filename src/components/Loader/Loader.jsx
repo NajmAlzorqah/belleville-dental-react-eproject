@@ -1,17 +1,7 @@
-// Loader.jsx
-
-import React, { useEffect } from "react";
+import React from "react";
 import "./Loader.css"; // Ensure correct path to Loader.css
 
 const Loader = () => {
-  useEffect(() => {
-    // This effect runs once when component mounts
-    const loader = document.getElementById("loader");
-    if (loader) {
-      loader.classList.add("hide"); // Initially hide the loader
-    }
-  }, []); // Empty dependency array ensures this effect runs only once
-
   return (
     <div className="loader" id="loader">
       <svg

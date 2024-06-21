@@ -92,25 +92,23 @@ h2.separator span {
   box-shadow: none;
 }
 
-
 .professional .professional-list .item .info {
   padding: 12px 0;
   border-bottom: 1px solid #edecec;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   justify-content: space-between;
   text-align: justify;
   overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.professional .professional-list .item>img,
-.products .product-list .item>img {
+.professional .professional-list .item > img,
+.products .product-list .item > img {
   width: 100%;
   height: 150px;
   border-radius: 18px;
 }
-
 
 .professional .professional-list .item .info h3,
 .products .product-list .item .info h3 {
@@ -185,7 +183,8 @@ h2.separator span {
 }
 
 .scale-up-center {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 

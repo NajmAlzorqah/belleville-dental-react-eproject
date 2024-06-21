@@ -1,36 +1,30 @@
+/* ================================ CONTACT US  ================================ */
 #contact .container .row .col-lg-6 .text-center h3 {
+  margin-top: 50px;
   text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.395);
   font-size: 40px;
 }
-
-
 
 #contact .container .row .col-lg-6 .text-center h3 span {
   color: #00ccff;
   text-shadow: 2px 2px 9px #00ccff;
 }
 
-.contact {
-  margin: -50px auto 95px;
+#contact {
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 #submit {
   width: 185px;
   height: 50px;
-  border-radius: 3px;
+  border-radius: 30px;
   background-color: var(--primary);
   border: 1px solid #5a4fdc !important;
-  color: #fff;
+  color: var(--light) !important;
+  text-align: center !important;
   box-shadow: 0 4px 20px rgba(90, 79, 220, 0.15);
-  transition: 0.5s;
-}
-
-@media only screen and (max-width: 413px) {
-  #submit {
-    width: 150px;
-    font-size: 15px;
-    text-align: center;
-  }
+  transition: all 0.5s;
 }
 
 #submit:hover {
@@ -38,6 +32,7 @@
   transform: translateY(-3px);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.423);
   background-color: #0a1536 !important;
+  /* font-size: 1.03rem; */
 }
 
 .form-control:focus {
@@ -93,4 +88,13 @@ textarea.form-control {
 [data-bs-theme="dark"] .form-control:focus {
   background-color: var(--bs-secondary-bg);
   border: 1px solid rgba(158, 156, 185, 0.3);
+}
+
+/* -------- CONTACT US MEDIA QUERY ------------ */
+@media only screen and (max-width: 413px) {
+  #submit {
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+  }
 }

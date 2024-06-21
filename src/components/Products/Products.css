@@ -68,12 +68,6 @@ h2.separator span {
   opacity: 0;
 }
 
-.professional .category img {
-  width: 25px;
-  height: 30px;
-  cursor: pointer;
-}
-
 .professional .category a,
 .products .category button {
   padding: 8px 14px;
@@ -130,15 +124,6 @@ h2.separator span {
   border-radius: 18px;
 }
 
-.professional .professional-list .item .info {
-  padding: 12px 0;
-  border-bottom: 1px solid #edecec;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  text-align: justify;
-  overflow: hidden;
-}
 
 .professional .professional-list .item .info h3,
 .products .product-list .item .info h3 {
