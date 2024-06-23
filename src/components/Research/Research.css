@@ -9,6 +9,7 @@
   margin-bottom: 16px;
   text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.395);
   font-size: 40px;
+  color: var(--primary);
 }
 
 .title span {
@@ -46,6 +47,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  display: none;
 }
 
 .left-btn {

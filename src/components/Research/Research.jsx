@@ -17,72 +17,72 @@ const Research = () => {
       {
         id: 1,
         image: img1,
-        date: "2025",
-        author: "Admin",
-        title: "Best Traveling Place",
+        date: "April 10 2023",
+        author: "Research Team",
+        title: "New Advances in Dental Implants",
         content:
-          "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
+          "Learn about the latest techniques and materials used in dental implants to enhance durability and aesthetics.",
       },
       {
         id: 2,
         image: img2,
-        date: "April 11 2020",
-        author: "Admin",
-        title: "Private Meeting Room",
+        date: "April 11 2023",
+        author: "Research Team",
+        title: "Impact of Diet on Oral Health",
         content:
-          "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
+          "Discover how dietary choices affect tooth decay and gum disease, and learn tips for maintaining a healthy diet.",
       },
       {
         id: 3,
         image: img3,
-        date: "April 12 2020",
-        author: "Admin",
-        title: "Conference Room",
+        date: "April 12 2023",
+        author: "Research Team",
+        title: "Innovations in Cavity Prevention",
         content:
-          "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
+          "Explore new techniques and products aimed at preventing cavities and maintaining strong enamel.",
       },
       {
         id: 4,
         image: img1,
-        date: "April 10 2020",
-        author: "Admin",
-        title: "Best Traveling Place",
+        date: "April 13 2023",
+        author: "Research Team",
+        title: "Advanced Dental Materials",
         content:
           "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
       },
       {
         id: 5,
         image: img2,
-        date: "April 11 2020",
-        author: "Admin",
-        title: "Private Meeting Room",
+        date: "April 14 2023",
+        author: "Research Team",
+        title: "Technological Advancements",
         content:
           "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
       },
       {
         id: 6,
         image: img3,
-        date: "April 12 2020",
-        author: "Admin",
-        title: "Conference Room",
+        date: "April 15 2023",
+        author: "Research Team",
+        title: "Preventive Techniques",
         content:
           "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
       },
       {
         id: 7,
         image: img1,
-        date: "April 10 2020",
-        author: "Admin",
-        title: "Best Traveling Place",
+        date: "April 16 2023",
+        author: "Research Team",
+        title: "Behavioral Approaches",
         content:
           "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
       },
       {
         id: 8,
         image: img2,
-        date: "April 11 2020",
-        author: "Admin",
-        title: "Private Meeting Room",
+        date: "April 17 2023",
+        author: "Research Team",
+        title: "Natural Remedies",
         content:
           "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
       },
@@ -148,11 +148,11 @@ const Research = () => {
           <div className="col-lg-6">
             <div className="text-center mb-5">
               <h3 className="title mb-3">
-                Latest <span>News</span>
+                Research
               </h3>
               <p className="text-muted font-size-15">
-                Et harum quidem rerum facilis est et expedita distinctio nam
-                libero tempore cum soluta nobis eligendi cumque.
+                Explore the latest findings and advancements in oral health research to
+                maintain a healthy smile.
               </p>
             </div>
           </div>
