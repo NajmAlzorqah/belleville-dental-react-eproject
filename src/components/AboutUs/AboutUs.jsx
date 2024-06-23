@@ -1,8 +1,27 @@
+/*
+  Component Overview:
+  The `AboutUs` component represents the About Us section of a website,
+  showcasing images and textual content describing the company's mission, values, and offerings.
+
+  Dependencies:
+  - React: Used for building user interfaces.
+  - "./AboutUs.css": Stylesheet for custom styling of the About Us section.
+  - Images:
+    - aboutImage1, aboutImage2: Images for visual representation in the About Us section.
+    - usImage: Image representing "Us" in the header.
+  Note:
+  - Images are imported from `/assets` directory and used to enhance visual presentation.
+  - CSS classes `delay`, `hidden`, and custom styling (`./AboutUs.css`) manage visibility and layout effects.
+
+  Usage:
+  - Renders the About Us section with images, textual descriptions, and interactive elements for user engagement.
+*/
+
 import React from "react";
 import aboutImage1 from "/assets/AboutUs-1.jpg";
 import aboutImage2 from "/assets/AboutUs-2.jpg";
 import usImage from "/assets/AboutUs-3.jpg";
-import "./AboutUs.css"; 
+import "./AboutUs.css";
 
 const AboutUs = () => {
   return (

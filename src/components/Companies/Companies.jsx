@@ -1,3 +1,24 @@
+/*
+  Component Overview:
+  The `Companies` component displays a section featuring logos of various companies,
+  with an infinite scroll animation effect applied to the logos.
+
+  Dependencies:
+  - React: Used for building user interfaces.
+
+  Animation Logic:
+  - `useEffect` hook with an empty dependency array (`[]`) ensures that the animation logic runs once on component mount.
+  - `addAnimation` function duplicates each item in the scroller content to create the infinite scroll effect.
+
+  Note:
+  - This component uses React's `useEffect` hook to manage the animation logic.
+  - Logos are displayed in an infinite scroll manner within the `scroller` container.
+  - Ensure CSS styles in `Companies.css` are properly applied for desired layout and animation effects.
+
+  Usage:
+  - Used within a parent component or as a standalone section displaying company logos with an animated scroll effect.
+*/
+
 import React, { useEffect } from "react";
 import company1 from "/assets/company-1.png";
 import company2 from "/assets/company-2.png";

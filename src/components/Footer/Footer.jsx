@@ -1,3 +1,9 @@
+/*
+  Component Overview:
+  The `FooterSection` component represents the footer section of a website,
+  designed to provide essential navigation links, site information, and dynamic content such as a ticker displaying date, time, and location.
+*/
+
 import React, { useEffect, useState } from "react";
 import "./Footer.css";
 import logo from "/assets/light-logo-icon.png";
@@ -5,6 +11,13 @@ import logo from "/assets/light-logo-icon.png";
 const FooterSection = () => {
   const [tickerContent, setTickerContent] = useState("");
 
+  /*
+    Smooth Scroll Function:
+    - Function: `smoothScroll`
+    - Description: Handles smooth scrolling to target elements when footer links are clicked.
+    - Usage: Applied to footer links to navigate users to specific sections on the page.
+    - Implementation: Uses `event.preventDefault()` to prevent default link behavior and calculates scroll position to achieve smooth scrolling effect.
+  */
   const smoothScroll = (event) => {
     event.preventDefault();
     const targetId = event.currentTarget.getAttribute("href").substring(1);
@@ -22,19 +35,13 @@ const FooterSection = () => {
     }
   };
 
-  useEffect(() => {
-    const footerLinks = document.querySelectorAll(".footer-link");
-    footerLinks.forEach((link) => {
-      link.addEventListener("click", smoothScroll);
-    });
-
-    return () => {
-      footerLinks.forEach((link) => {
-        link.removeEventListener("click", smoothScroll);
-      });
-    };
-  }, []);
-
+  /*
+    Ticker Update Functionality:
+    - Function: `updateTicker`
+    - Description: Fetches current date, time, and location information to update the ticker content.
+    - Usage: Updates ticker content with real-time data fetched from OpenStreetMap reverse geolocation API.
+    - Implementation: Uses `navigator.geolocation.getCurrentPosition` to obtain user's current location and fetches corresponding city information. Handles fallback scenarios gracefully.
+  */
   const updateTicker = () => {
     const now = new Date();
     const year = now.getFullYear();
@@ -68,6 +75,30 @@ const FooterSection = () => {
     );
   };
 
+  /*
+    Lifecycle Management:
+    - Event Listener Setup and Cleanup:
+      - Hooks Used: `useEffect`
+      - Description: Sets up event listeners for smooth scrolling on component mount (`useEffect` with empty dependency array).
+      - Cleanup: Removes event listeners on component unmount to prevent memory leaks and ensure clean component lifecycle.
+    - Interval-Based Ticker Update:
+      - Hooks Used: `useEffect`
+      - Description: Initializes and updates ticker content at regular intervals (`useEffect` with empty dependency array).
+      - Cleanup: Clears the interval on component unmount to stop periodic updates.
+  */
+  useEffect(() => {
+    const footerLinks = document.querySelectorAll(".footer-link");
+    footerLinks.forEach((link) => {
+      link.addEventListener("click", smoothScroll);
+    });
+
+    return () => {
+      footerLinks.forEach((link) => {
+        link.removeEventListener("click", smoothScroll);
+      });
+    };
+  }, []);
+
   useEffect(() => {
     const tickerInterval = setInterval(updateTicker, 60000);
     updateTicker();
@@ -76,6 +107,23 @@ const FooterSection = () => {
       clearInterval(tickerInterval);
     };
   }, []);
+
+  /*
+    Component Structure:
+    - HTML Structure:
+      - Sections: Divided into `footer` and `footer-alt` sections for content and ticker respectively.
+      - Grid Layout: Organized using Bootstrap grid (`row` and `col-*` classes) for responsive design.
+    - Logo and Branding:
+      - Logo: Includes Belleville Dental logo (`light-logo-icon.png`) with alternative text for accessibility.
+      - Brand Description: Provides a brief description of Belleville Dental's services and mission.
+    - Navigation Links:
+      - Site Map: Lists primary navigation links (`Home`, `About Us`, `Products`, etc.) for easy access to different sections of the website.
+      - Query Links: Includes links to FAQs and Contact Us sections for user queries.
+      - Media Library: Displays links to latest research and media library resources.
+    - Ticker Display:
+      - Dynamic Content: Displays real-time information (`year`, `time`, `city`) fetched through `updateTicker` function.
+      - Styling: Styled using CSS (`Footer.css`) for visual consistency and readability.
+  */
 
   return (
     <>
@@ -178,7 +226,6 @@ const FooterSection = () => {
               <div className="ticker">
                 <div id="ticker">
                   <div id="ticker-content">{tickerContent}</div>
-                  {/* <div id="ticker-content">{tickerContent}</div> */}
                 </div>
               </div>
             </div>

@@ -8,6 +8,7 @@ import starImage from "/assets/star.svg";
 import faceIconImage from "/assets/face-icon.svg";
 
 const PatientEducation = () => {
+  // Apply scroll animations to specific elements on component mount
   useScrollAnimation(".delay", "show"); // Apply scroll animation to elements with .delay class
   useScrollAnimation(".opacity-element", "show-opacity"); // Apply opacity animation to elements with .opacity-element class
   useScrollAnimation(".hidden", "show"); // Apply scroll animation to hidden elements

@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import VisitorCount from "../VisitorCount/VisitorCount";
-import logo from "/assets/light-logo-icon.png";
-import "./Navbar.css";
+import VisitorCount from "../VisitorCount/VisitorCount"; // Import VisitorCount component
+import logo from "/assets/light-logo-icon.png"; // Import logo image
+import "./Navbar.css"; // Import CSS file for styling
 
 const Navbar = () => {
+  // State to manage whether the navigation menu is open or closed
   const [isNavOpen, setIsNavOpen] = useState(false);
 
+  // Function to handle smooth scrolling to section on clicking navigation links
   const smoothScroll = (event) => {
     event.preventDefault();
     const targetId = event.target.getAttribute("href").substring(1);
@@ -21,10 +23,12 @@ const Navbar = () => {
     }
   };
 
+  // Function to toggle the mobile navigation menu
   const toggleMenu = () => {
     setIsNavOpen(!isNavOpen);
   };
 
+  // Function to close the mobile navigation menu
   const closeNav = () => {
     setIsNavOpen(false);
   };
@@ -32,6 +36,7 @@ const Navbar = () => {
   return (
     <section>
       <nav className="navigation-bar">
+        {/* Hamburger menu icon for mobile navigation */}
         <div className="burger-menu">
           <svg
             aria-controls="primary-navigation"
@@ -55,12 +60,14 @@ const Navbar = () => {
           </svg>
         </div>
 
+        {/* Navigation links */}
         <div className={`links ${isNavOpen ? "open" : ""}`}>
           <ul
             id="primary-navigation"
             data-visible={isNavOpen}
             className="primary-navigation menu"
           >
+            {/* Navigation items with smooth scroll onClick */}
             <li>
               <a href="#home-page" onClick={smoothScroll}>
                 Home
@@ -72,6 +79,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
+              {/* Dropdown menu for Education */}
               <div className="education">
                 <a href="#patient-education" onClick={smoothScroll}>
                   Education
@@ -109,6 +117,7 @@ const Navbar = () => {
           </ul>
         </div>
 
+        {/* Left container with logo and VisitorCount component */}
         <div className="left-container">
           <div className="logo">
             <a href="./index.html">

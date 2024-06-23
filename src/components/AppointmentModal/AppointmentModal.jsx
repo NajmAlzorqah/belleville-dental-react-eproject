@@ -1,3 +1,22 @@
+/*
+  Component Overview:
+  The `AppointmentModal` component renders a modal for requesting an appointment,
+  providing inputs for visitor information such as name, email, phone number, and preferred appointment details.
+
+  Dependencies:
+  - React: Used for building user interfaces.
+
+  Props:
+  - closeModal: Function passed as a prop to close the modal when the close button is clicked.
+
+  Note:
+  - This component renders a modal with interactive form elements to facilitate appointment requests.
+  - `closeModal` function is invoked when the close button is clicked to dismiss the modal.
+
+  Usage:
+  - Used within a parent component or as a standalone modal component for handling appointment requests.
+*/
+
 import React from "react";
 
 const AppointmentModal = ({ closeModal }) => {

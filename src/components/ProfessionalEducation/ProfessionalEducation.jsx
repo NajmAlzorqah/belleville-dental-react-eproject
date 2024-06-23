@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import useScrollAnimation from "../../Hooks/useScrollAnimation"; // Ensure this hook is correctly imported
+import useScrollAnimation from "../../Hooks/useScrollAnimation"; 
 import "./ProfessionalEducation.css";
 import "../../Hooks/scrollAnimation.css"; // Import global scroll animation CSS
 

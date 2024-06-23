@@ -1,3 +1,24 @@
+/*
+  Component Overview:
+  The `ContactUs` component displays a contact form and contact details section,
+  allowing users to submit messages and view contact information.
+
+  Dependencies:
+  - React: Used for building user interfaces.
+
+  Functionality:
+  - `useState` hook manages form data (`formData`), error message (`errorMsg`), and success message (`successMsg`).
+  - `handleInputChange` function updates `formData` state on input change.
+  - `handleSubmit` function validates form fields, sends a POST request to a server-side endpoint (`php/contact.php`), and handles response.
+
+  Note:
+  - This component integrates with a server-side endpoint (`php/contact.php`) for form submission.
+  - Ensure CSS styles in `ContactUs.css` are applied for desired layout and styling effects.
+
+  Usage:
+  - Used within a parent component or as a standalone section for contacting customer support or service.
+*/
+
 import React, { useState } from "react";
 import "./ContactUs.css";
 

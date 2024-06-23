@@ -1,10 +1,13 @@
 import React, { useEffect } from "react";
 import "./Products.css";
+
 const Products = () => {
   useEffect(() => {
+    // Fetching product data from JSON file on component mount
     fetch("/react-eproject/product.json")
       .then((response) => response.json())
       .then((data) => {
+        // Function to create individual product elements
         function createItemElement(item) {
           const itemDiv = document.createElement("div");
           itemDiv.classList.add("item", item.type);
@@ -46,18 +49,8 @@ const Products = () => {
           `;
 
           const readDiv = document.createElement("div");
-          readDiv.innerHTML = `<a href="#">Buy Now</a>                  <svg
-                    height="50" // Adjust height as per your design
-                    width="50" // Adjust width as per your design
-                    viewBox="0 0 227.096 227.096"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                  >
-                    <polygon
-                      style={{ fill: "#010002" }} // Adjust fill color as needed
-                      points="152.835,39.285 146.933,45.183 211.113,109.373 0,109.373 0,117.723 211.124,117.723 146.933,181.902 152.835,187.811 227.096,113.55"
-                    />
-                  </svg>`;
+          readDiv.innerHTML = `<a href="#">Buy Now</a>`;
+
           readDiv.classList.add("buy-now");
 
           starsDiv.appendChild(rateMessageDiv);
@@ -224,3 +217,4 @@ const Products = () => {
 };
 
 export default Products;
+
