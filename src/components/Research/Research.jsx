@@ -6,6 +6,7 @@ import "./Research.css";
 import img1 from "/assets/img-1.jpg";
 import img2 from "/assets/img-2.jpg";
 import img3 from "/assets/img-3.jpg";
+// import img4 from "/assets/research-1.jpg";
 
 const Research = () => {
   const [ResearchEntries, setResearchEntries] = useState([]);
@@ -16,7 +17,7 @@ const Research = () => {
       {
         id: 1,
         image: img1,
-        date: "April 10 2020",
+        date: "2025",
         author: "Admin",
         title: "Best Traveling Place",
         content:

@@ -1,4 +1,4 @@
-// src/hooks/useScrollAnimation.js
+
 import { useEffect } from "react";
 
 const useScrollAnimation = (selector, showClass) => {
