@@ -90,11 +90,10 @@ const ContactUs = () => {
           <div className="col-lg-6">
             <div className="text-center mb-5">
               <h3 className="title mb-3">
-                Contact <span>Us</span>
+                Contact Us
               </h3>
               <p className="text-muted font-size-15">
-                Et harum quidem rerum facilis est et expedita distinctio nam
-                libero tempore cum soluta nobis eligendi cumque.
+                Contact us today to discover how our innovative solutions can enhance your dental health and transform your smile!
               </p>
             </div>
           </div>

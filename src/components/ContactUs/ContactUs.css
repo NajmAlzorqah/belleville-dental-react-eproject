@@ -3,11 +3,7 @@
   margin-top: 50px;
   text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.395);
   font-size: 40px;
-}
-
-#contact .container .row .col-lg-6 .text-center h3 span {
-  color: #00ccff;
-  text-shadow: 2px 2px 9px #00ccff;
+  color: var(--primary);
 }
 
 #contact {

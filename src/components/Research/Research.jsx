@@ -3,9 +3,14 @@ import feather from "feather-icons";
 import "./Research.css";
 
 // Import images
-import img1 from "/assets/img-1.jpg";
-import img2 from "/assets/img-2.jpg";
-import img3 from "/assets/img-3.jpg";
+import img1 from "/assets/research-1.jpg";
+import img2 from "/assets/research-2.jpg";
+import img3 from "/assets/research-3.jpeg";
+import img4 from "/assets/research-4.jpg";
+import img5 from "/assets/research-5.jpg";
+import img6 from "/assets/research-6.jpg";
+import img7 from "/assets/research-7.jpg";
+import img8 from "/assets/research-8.jpg";
 // import img4 from "/assets/research-1.jpg";
 
 const Research = () => {
@@ -43,48 +48,48 @@ const Research = () => {
       },
       {
         id: 4,
-        image: img1,
+        image: img4,
         date: "April 13 2023",
         author: "Research Team",
         title: "Advanced Dental Materials",
         content:
-          "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
+          "A follow-up call will be scheduled shortly to provide a comprehensive discussion on the lates advancement.",
       },
       {
         id: 5,
-        image: img2,
+        image: img5,
         date: "April 14 2023",
         author: "Research Team",
         title: "Technological Advancements",
         content:
-          "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
+          "To ensure a through understanding of the latest technological advancements and innovations.",
       },
       {
         id: 6,
-        image: img3,
+        image: img6,
         date: "April 15 2023",
         author: "Research Team",
         title: "Preventive Techniques",
         content:
-          "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
+          "An upcoming call will be scheduled soon to discuss the newest preventive techniques in depth.",
       },
       {
         id: 7,
-        image: img1,
+        image: img7,
         date: "April 16 2023",
         author: "Research Team",
         title: "Behavioral Approaches",
         content:
-          "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
+          "PLanes are in place for a detailed exploration of current behavioral approaches of this field.",
       },
       {
         id: 8,
-        image: img2,
+        image: img8,
         date: "April 17 2023",
         author: "Research Team",
         title: "Natural Remedies",
         content:
-          "Integer ante arcu accumsan a consectetuer eget posuere mauris praesent adipiscing phasellus ullamcorper ipsum rutrum punc.",
+          "Aiming for a comprehensive exploration and understanding of those natural remedies.",
       },
     ]);
   }, []);
