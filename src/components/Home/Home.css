@@ -120,6 +120,17 @@
   transition: all 0.4s ease-in-out;
   color: white;
 }
+
+.buttons-two > button {
+  background-color: var(--light);
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 100px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding-inline: 10px;
+  padding-block: 3px;
+}
 /* PAGE SAPERATOR */
 .page-saperatopr {
   position: absolute;
@@ -332,13 +343,18 @@
 /* ----------------------- HOME PAGE MEDIA QUERIES ---------------------- */
 /* ----- SPECIFIC QUERIES ------ */
 @media (max-height: 750px) and (max-width: 600px) {
-  .scheduals {
-    display: none !important;
+  .scheduals > div {
+    transform: scale(0.8);
   }
 }
 @media (max-height: 520px) and (max-width: 920px) {
   .scheduals {
     display: none !important;
+  }
+}
+@media (max-width: 440px) {
+  .scheduals > div {
+    transform: scale(0.8);
   }
 }
 
@@ -347,6 +363,12 @@
   .scheduals {
     width: 100%;
     height: 120px;
+    position: relative;
+    margin-top: 20px;
+    bottom: 0px;
+  }
+  .home-page {
+    height: unset;
   }
   .grid-box {
     flex-direction: row !important;
@@ -356,6 +378,10 @@
   }
   .home-page-componants > div {
     width: 80% !important;
+  }
+  .home-page-componants {
+    margin-top: 100px;
+    height: 75vh;
   }
 }
 
@@ -368,12 +394,21 @@
     text-align: center;
     gap: 0px;
     padding-left: 0px !important;
+    transform: scale(0.8);
+    margin-top: 100px;
   }
+  .home-page-componants > div {
+    width: 115% !important;
+  }
+
   .buttons {
     display: flex;
     justify-content: center;
   }
-
+  .model {
+    width: 110%;
+    max-width: unset;
+  }
   .secondary-text > p {
     width: 100% !important;
   }
@@ -388,6 +423,7 @@
     background-image: linear-gradient(to top, white, transparent, transparent);
   }
 }
+
 /* -------- ROTATED SMALL SCREENS (HEIGHT MEDIA) --------- */
 @media (max-height: 420px) {
   .home-page-componants {

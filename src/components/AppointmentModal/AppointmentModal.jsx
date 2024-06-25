@@ -16,12 +16,30 @@
   Usage:
   - Used within a parent component or as a standalone modal component for handling appointment requests.
 */
-
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 const AppointmentModal = ({ closeModal }) => {
+  const modalRef = useRef();
+
+  // Function to handle clicks outside the modal
+  const handleClickOutside = (event) => {
+    if (modalRef.current && !modalRef.current.contains(event.target)) {
+      closeModal();
+    }
+  };
+
+  // Add event listener when the component mounts
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Clean up the event listener when component unmounts
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className="model active" id="model">
+    <div className="model active" id="model" ref={modalRef}>
       <div className="model-header">
         <h2>Request Appointment</h2>
         <button data-close-button className="close-button" onClick={closeModal}>
@@ -55,7 +73,7 @@ const AppointmentModal = ({ closeModal }) => {
         <input type="datetime-local" placeholder="No Preference" />
         <h3>Preferred Appointment Time</h3>
         <input type="datetime-local" placeholder="No Preference" />
-        <div className="submit-button">
+        <div className="buttons-two">
           <button>Submit</button>
         </div>
       </div>

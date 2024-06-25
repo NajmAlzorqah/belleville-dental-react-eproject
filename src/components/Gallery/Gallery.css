@@ -1,6 +1,7 @@
-.gallary {
+.gallery {
   padding: 20px;
-  margin: 0px;
+  /* margin: 0px; */
+  margin-block: 70px;
   padding-bottom: 50px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.304);
 }

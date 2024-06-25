@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import VisitorCount from "../VisitorCount/VisitorCount"; // Import VisitorCount component
-import logo from "/assets/light-logo-icon.png"; // Import logo image
-import "./Navbar.css"; // Import CSS file for styling
+import React, { useState, useEffect, useRef } from "react";
+import VisitorCount from "../VisitorCount/VisitorCount";
+import logo from "/assets/light-logo-icon.png";
+import "./Navbar.css";
 
 const Navbar = () => {
-  // State to manage whether the navigation menu is open or closed
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const navRef = useRef(null);
 
   // Function to handle smooth scrolling to section on clicking navigation links
   const smoothScroll = (event) => {
@@ -21,6 +21,8 @@ const Navbar = () => {
         behavior: "smooth",
       });
     }
+    // Close nav menu after clicking on a link
+    closeNav();
   };
 
   // Function to toggle the mobile navigation menu
@@ -33,10 +35,23 @@ const Navbar = () => {
     setIsNavOpen(false);
   };
 
+  // Close nav menu when clicking outside the navbar
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        closeNav();
+      }
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, []);
+
   return (
     <section>
-      <nav className="navigation-bar">
-        {/* Hamburger menu icon for mobile navigation */}
+      <nav className="navigation-bar" ref={navRef}>
         <div className="burger-menu">
           <svg
             aria-controls="primary-navigation"
@@ -60,14 +75,12 @@ const Navbar = () => {
           </svg>
         </div>
 
-        {/* Navigation links */}
         <div className={`links ${isNavOpen ? "open" : ""}`}>
           <ul
             id="primary-navigation"
             data-visible={isNavOpen}
             className="primary-navigation menu"
           >
-            {/* Navigation items with smooth scroll onClick */}
             <li>
               <a href="#home-page" onClick={smoothScroll}>
                 Home
@@ -79,7 +92,6 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              {/* Dropdown menu for Education */}
               <div className="education">
                 <a href="#patient-education" onClick={smoothScroll}>
                   Education
@@ -117,7 +129,6 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Left container with logo and VisitorCount component */}
         <div className="left-container">
           <div className="logo">
             <a href="./index.html">
@@ -127,7 +138,6 @@ const Navbar = () => {
               </p>
             </a>
           </div>
-          {/* Include VisitorCount component here */}
           <VisitorCount />
         </div>
       </nav>
