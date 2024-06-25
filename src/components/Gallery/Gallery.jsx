@@ -12,6 +12,7 @@ import image7 from "/assets/Gallery-7.jpg";
 import image8 from "/assets/Gallery-8.jpg";
 import image9 from "/assets/Gallery-9.jpg";
 import image10 from "/assets/Gallery-10.jpg";
+import image11 from "/assets/Gallery-11.jpg";
 
 const Gallery = () => {
   return (
@@ -113,7 +114,7 @@ const Gallery = () => {
 
         <div className="card card-wide-two">
           <div className="sub-card">
-            <img src={image7} alt="" />
+            <img src={image11} alt="" />
           </div>
         </div>
         <div className="card card-wide-three delay hidden">
