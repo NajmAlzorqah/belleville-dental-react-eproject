@@ -32,7 +32,7 @@ const Home = () => {
    * Renders the Home component with all its sections and functionality.
    */
   return (
-    <section id="home-page" className="home-page">
+    <section id="Home" className="home-page">
       {/* Shades and separators for styling */}
       <div className="shades"></div>
       <div className="page-saperatopr"></div>
