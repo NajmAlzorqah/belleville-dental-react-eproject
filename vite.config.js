@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/react-eproject/",
+  base: "/belleville-dental-react-eproject/",
   plugins: [react()],
   resolve: {
     alias: {
