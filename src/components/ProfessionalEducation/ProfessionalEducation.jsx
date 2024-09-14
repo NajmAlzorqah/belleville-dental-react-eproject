@@ -14,7 +14,7 @@ const ProfessionalEducation = () => {
 
   // Fetch data from data.json on component mount
   useEffect(() => {
-    fetch("/react-eproject/data.json") // Adjust path based on your project setup
+    fetch("/belleville-dental-react-eproject/data.json") // Adjust path based on your project setup
       .then((response) => response.json())
       .then((data) => {
         setItems(data.items);

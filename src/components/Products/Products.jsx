@@ -4,7 +4,7 @@ import "./Products.css";
 const Products = () => {
   useEffect(() => {
     // Fetching product data from JSON file on component mount
-    fetch("/react-eproject/product.json")
+    fetch("/belleville-dental-react-eproject/product.json")
       .then((response) => response.json())
       .then((data) => {
         // Function to create individual product elements
